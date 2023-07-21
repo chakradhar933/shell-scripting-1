@@ -3,4 +3,4 @@
 Name1=$1
 Name2=$2
 echo "hi,${Name1}"
-echo "hello,${Nmae2}"
+echo "hello,${Name2}"
