@@ -14,6 +14,8 @@ Variables:
  3. You can pass the values to shell script from outside through arguments.
  you cna pass the values trhrough command line ex: 03-variables.sh mahesh suresh 
  Shell script store the values like $1= mahesh , $2= suresh
+ 4. You ask the user to enter the values dynamically that is through read command.
  
+
 
 
