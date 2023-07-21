@@ -26,9 +26,53 @@ Variables:
  bool ---> true/false.
  In shell data types are not much used becuse mostly it is string here. But if you pass number shell script can understand its a number
 Array : Array is a list of all elements.
+Boolean: 0 means failure
+         1 means success
+Exit Codes:
+---------------------
+To write a shell script install git.
+Unfortunally shell dont care error . it will move forward.
+It is our responsibility to check sucess or not
+How programs are understand that is error or not by using exit codes .
+shell will store the value inside the special variable called as $? -----> 0 means success and other than zero failure
+for example you type any command ls or file you can check echo $? 
+Check the exit codes for every line.
+Conditions:
+----------------------
+Examples:
+If (expression) {
+   these commands are run when expression is true
+}
+else {
+   these commands are run when expression is false
+}
+We need to check
+if(exit code is 0) {
+then print sucess
+}
+else{
+then print failure   
+}   
 
+If condition synatx
+if [ expression ]
+then
+    statements can be excuted if expression is true
+else
+    statement can be excuted if expression is false
+fi        
 
- 
+First findout user has root access are not.
+If he has root access forward otherwise inform him you are not root user.
 
+Task:
+Install any package
+1. we need root access
+2. check user has root access or not
+3. if yes proced
+4. if no tell me your are not root user tell me exit
+To check the root user by using the command Id -u  
+root user number is 0
+if id -u is 0 ---> then root
 
 
