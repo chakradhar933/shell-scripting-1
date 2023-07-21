@@ -5,5 +5,5 @@ Name=Mahesh
 # $Name or ${Name}
 echo "Hi,$Name"
 ## Run a command inside shell script and get the value inside variables.
-Date=$((date +%F))
+Date=$(date +%F)
 echo "Hello,Todays date is:${Date}"
