@@ -9,3 +9,10 @@ else
 fi    
 echo "install the git"
 yum install git -y
+if [ $? -eq 0 ]
+then
+  echo "install git success"
+else
+  echo "Git is not installed"
+  exit 1
+fi  
