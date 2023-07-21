@@ -14,7 +14,20 @@ Variables:
  3. You can pass the values to shell script from outside through arguments.
  you cna pass the values trhrough command line ex: 03-variables.sh mahesh suresh 
  Shell script store the values like $1= mahesh , $2= suresh
+ Numeber of arguments are passed using the command $#
+ If you want to see all the arguments passed $@
  4. You ask the user to enter the values dynamically that is through read command.
+
+ Data types:
+ Int, float, double boolean string
+ int ---> 33000 to 33333
+ float ---> 1.22
+ string ---> hai
+ bool ---> true/false.
+ In shell data types are not much used becuse mostly it is string here. But if you pass number shell script can understand its a number
+
+
+
  
 
 
