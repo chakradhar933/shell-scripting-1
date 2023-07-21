@@ -25,7 +25,7 @@ Variables:
  string ---> hai
  bool ---> true/false.
  In shell data types are not much used becuse mostly it is string here. But if you pass number shell script can understand its a number
-
+Array : Array is a list of all elements.
 
 
  
