@@ -10,5 +10,7 @@ Shell-scripting is nothing but a list of commands and some scripting concepts. A
 Variables:
  1. They are multiples ways to create the variables . Onething is you can directly create varaible and assign value inside shell-scripting.
  2. How can you run a command inside shell script and get the value inside variables?
- ans: how we will do this we write a command ex: Date=$((any command)) . Run the command store the value inside the Date varaible.
+ ans: how we will do this we write a command ex: Date=$(any command) . Run the command store the value inside the Date varaible.
+ 3. You can pass the values to shell script from outside through arguments.
  
+
