@@ -26,7 +26,7 @@ do
   if [ $? -ne 0 ]
   then
     echo "$1 ... not installed"
-    yum install $Package -y &>>Log_file
+    yum install $Package -y &>>$Log_file
     Validate $? "$Package Installation"
   else
      echo -e "$1 ... $yellow Installed already $Normal"
