@@ -21,5 +21,5 @@ yum install vim -y
 Validate $? "vim installation"
 yum install wget -y
 Validate $? "wget installation"
-yum install nginx -y 
+amazon-linux-extras install nginx1 -y
 Validate $? "Nginx Installation"
