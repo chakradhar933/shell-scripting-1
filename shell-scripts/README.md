@@ -110,6 +110,13 @@ Function_name () {
 - date +"%F:%H:%M"
 - Task:
 - Everytime i want to excute  a shell-script i want to create a log file with time stamp. 
+* Colours
+- We can improve user experince with colours
+- Task-2:
+1. Fail should be red colour
+2. Success should be green
+- Linux colours
+- Ex: echo -e "\e[31m Hello world/e[0m"
 
 
 
