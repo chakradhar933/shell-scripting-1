@@ -117,6 +117,22 @@ Function_name () {
 2. Success should be green
 - Linux colours
 - Ex: echo -e "\e[31m Hello world/e[0m"
+Functions are some lengthy to reduce some steps
+- Task-3: Now you got 3 packeges tommarow manager asks to install 100 pacakges its a headak to reduce this using loops.
+------
+- loops
+- Loops-- > keeps always dry.
+- For loop
+- Ex: for (int i=0; i<20; i++>){
+            echo $i
+}
+- script.sh has git vim wget 
+How can you see the arguments $@
+- Ex:
+for Variable in 1 2 3 4 .. N
+do
+  <commands>
+done  
 
 
 
