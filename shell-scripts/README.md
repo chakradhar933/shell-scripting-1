@@ -133,6 +133,11 @@ for Variable in 1 2 3 4 .. N
 do
   <commands>
 done  
+- Task:2 
+- i dont want to install already run  packages
+- first check already installed or not
+- if install skip it
+- if not install install it.
 
 
 
