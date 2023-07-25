@@ -15,7 +15,7 @@ Validate(){
      echo "$2 ...... success"
   fi   
 }    
-yum install git -y
+yum install gitt -y
 Validate $? "Git installation"
 yum install vim -y
 Validate $? "vim installation"
