@@ -23,3 +23,4 @@ yum install wget -y
 Validate $? "wget installation"
 amazon-linux-extras install nginx1 -y
 Validate $? "Nginx Installation"
+# In this whatever will be printed on the terminal only.

@@ -93,7 +93,23 @@ Function_name () {
 }
 - Function_name : This is how you call the function.
 
-
+- 02-function.sh
+# In this whatever will be printed on the terminal only.
+- For example to shedule a script daily at 6 am . Tommarow you can check whether it is running or not . How can you get it. 
+- In this purpose logs are the best practice to check the status of previous excutions.
+* Output redirections.
+- 1 - means success.
+- 2 - means failed
+- & - means both
+- > - redirections.
+- >> - appending
+- ls -ltr > sample.log When are redirect by default give sucess output. If you give error it cannot redirect. Ex: lsg -ss > sample.log . To store the error output using 2 ex: lss-s 2> sample.log . it only redirect to only one output .
+- To store both outputs success and failure use &> ex: lsss -l &> sample.log . It will deleting the old content and adding new content only.
+- We want both data appending ex : lss -l &>> sample.log
+- Create a log file to store the output
+- date +"%F:%H:%M"
+- Task:
+- Everytime i want to excute  a shell-script i want to create a log file with time stamp. 
 
 
 
