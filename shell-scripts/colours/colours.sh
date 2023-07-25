@@ -14,9 +14,9 @@ Validate(){
     if [ $1 -ne 0 ]
     then
       echo -e " $2 .....$Red Fail $Normal"
-      exit
+      exit 1
     else
-      echo " $2 .....$Green Success $Normal"
+      echo -e "$2 .....$Green Success $Normal"
     fi    
 }  
 yum install git -y &>>$Log_file
