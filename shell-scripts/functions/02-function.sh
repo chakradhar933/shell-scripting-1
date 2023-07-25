@@ -2,7 +2,9 @@
 Userid=$(id -u)
 if [ $Userid -ne 0 ]
 then
-  echo "Please run the script with root user "
+  echo "Please run the script with root user"
+  exit 1
+fi  
 # This is a generic function we need to pass the arguments
 Validate(){
   if [ $1 -ne 0 ]
