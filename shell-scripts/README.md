@@ -81,7 +81,19 @@ If he has root access forward otherwise inform him you are not root user.
 - git 
 - vim
 - wget
-- net-tools
+- in 01-functions.sh script  was very lengthy and some reptitative tasks are their.
+- To keep code should be in dry.
+- Dry: Dont repeat yourself. In this we can use variables.
+* Functions:
+- Functions does a unit of work, you can create functions and use it whereever required . A change in one place reflects everywhere where ever it required, like variables.
+
+function syntax:
+Function_name () {
+
+}
+- Function_name : This is how you call the function.
+
+
 
 
 
