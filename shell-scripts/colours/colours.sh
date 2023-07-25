@@ -19,7 +19,7 @@ Validate(){
       echo -e "$2 .....$Green Success $Normal"
     fi    
 }  
-yum install git -y &>>$Log_file
+yum install gitt -y &>>$Log_file
 Validate $? "Git installation"
 yum install wget -y &>>$Log_file
 Validate $? "Wget Installation"
