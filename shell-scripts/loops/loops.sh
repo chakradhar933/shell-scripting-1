@@ -21,6 +21,6 @@ Validate(){
 }
 for Package in $@ # git wget vim
 do
-  yum install $Package -y
+  yum install $Package -y &>>Log_file
   Validate $? "$Package installation"
 done  
