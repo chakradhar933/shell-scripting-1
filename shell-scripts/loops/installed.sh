@@ -29,6 +29,6 @@ do
     yum install $Package -y
     Validate $? "$Package Installation"
   else
-     echo -e "$1 ... $yellow Installed already"
+     echo -e "$1 ... $yellow Installed already $Normal"
   fi     
 done 
