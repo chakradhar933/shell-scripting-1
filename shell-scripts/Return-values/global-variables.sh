@@ -4,21 +4,21 @@ Date=$(date +"%F:%H:%M:%S")
 Log_file="$Date.log"
 Red="\e[31m"
 Green="\e[32m"
-Yellow="\e[33m"
+yellow="\e[33m"
 Normal="\e[0m"
-if [ $Userid -eq 0 ]
+if [ $Userid -ne 0 ]
 then
-   echo "run with root user"
-   exit 1
+  echo " Please run with root user"
+  exit 1
 fi
 Validate(){
-    if [ $? -eq 0]
+    if [ $1 -ne 0 ]
     then
-       echo -e " $2 ... $Red Fail $Normal"
-       exit 1
+      echo -e " $2 .....$Red Fail $Normal"
+      exit 1
     else
-       echo -e "$2 ... $Green success $Normal"
-    fi      
+      echo -e "$2 .....$Green Success $Normal"
+    fi    
 }
 IS_INSTALLED=no #global variable
 CHECK_INSTALLED(){
