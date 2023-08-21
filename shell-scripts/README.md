@@ -143,7 +143,7 @@ done
 ##Day-3
 - Return values in functions.
 - Output of functions called as return values.
-
-
+- Return Values: Expecting someting from the return to the functions is called ReturnValue.
+# Global variables: The values present oustide of the functions called as global variables.
 
 
