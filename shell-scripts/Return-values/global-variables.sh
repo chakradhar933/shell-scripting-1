@@ -11,6 +11,7 @@ then
   echo " Please run with root user"
   exit 1
 fi
+
 Validate(){
     if [ $1 -ne 0 ]
     then
@@ -20,6 +21,7 @@ Validate(){
       echo -e "$2 .....$Green Success $Normal"
     fi    
 }
+
 IS_INSTALLED=no #global variable
 CHECK_INSTALLED(){
     yum -q list installed $! &>/dev/null
@@ -39,7 +41,7 @@ do
     else
        echo -e $Package .. $yellow installed already $Normal
        fi
-    done
+done
 
 
 
