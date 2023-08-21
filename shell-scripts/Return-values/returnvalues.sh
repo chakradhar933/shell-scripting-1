@@ -35,7 +35,7 @@ do
     CHECK_INSTALLED $Package
     return_value=$?
     echo "return value from function: $return_value"
-    if [ $? -ne 0 ]
+    if [ $return_value -ne 20 ]
     then
        echo "$Package..... Not installed"
        yum install $Package -y &>>$Log_file
