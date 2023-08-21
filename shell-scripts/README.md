@@ -8,12 +8,12 @@
    5. functions
 
 - Shell-scripting is nothing but a list of commands and some scripting concepts. All commands in one file is called as shell-scripting. With the commands you are giving in shell scripting you will add scripting concepts like variables,datatypes,conditions,functions etc to take some decesions.
-- Variables:
-  1. They are multiples ways to create the variables . Onething is you can directly create varaible and assign value inside shell-scripting.
+- Variables: Variables are nothing but it is  used to store the data. Making it easier to manage values like string , numbers.
+  1. They are multiple ways to create the variables . Onething is you can directly create varaible and assign value inside shell-scripting.
   2. How can you run a command inside shell script and get the value inside variables?
  ans: We will do this we write a command ex: Date=$(any command) . Run the command store the value inside the Date varaible.
   3. You can pass the values to shell script from outside through arguments.
- you cna pass the values trhrough command line ex: 03-variables.sh mahesh suresh 
+ you can pass the values through command line ex: 03-variables.sh mahesh suresh 
   - Shell script store the values like $1= mahesh , $2= suresh
   - Number of arguments are passed using the command $#
   - If you want to see all the arguments passed $@
@@ -26,19 +26,19 @@
  string ---> hai
  bool ---> true/false.
  In shell data types are not much used becuse mostly it is string here. But if you pass number shell script can understand its a number
-Array : Array is a list of all elements.
-Boolean: 0 means failure
+- Array : Array is a list of all elements.
+- Boolean: 0 means failure
          1 means success
-Exit Codes:
+- Exit Codes:
 ---------------------
-To write a shell script install git.
-Unfortunally shell dont care error . it will move forward.
-It is our responsibility to check sucess or not
-How programs are understand that is error or not by using exit codes .
-shell will store the value inside the special variable called as $? -----> 0 means success and other than zero failure
-for example you type any command ls or file you can check echo $? 
-Check the exit codes for every line.
-Conditions:
+- To write a shell script install git.
+- Unfortunally shell dont care error . it will move forward.
+- It is our responsibility to check sucess or not
+- How programs are understand that is error or not by using exit codes .
+- shell will store the value inside the special variable called as $? -----> 0 means success and other than zero failure
+- for example you type any command ls or file you can check echo $? 
+- Check the exit codes for every line.
+- Conditions:
 ----------------------
 Examples:
 If (expression) {
@@ -70,7 +70,7 @@ If he has root access forward otherwise inform him you are not root user.
 - Install any package
    1. we need root access
    2. check user has root access or not
-   3. if yes proced
+   3. if yes procced
    4. if no tell me your are not root user tell me exit
 - To check the root user by using the command Id -u  
 - root user number is 0
@@ -138,6 +138,12 @@ done
 - first check already installed or not
 - if install skip it
 - if not install install it.
+
+
+##Day-3
+- Return values in functions.
+- Output of functions called as return values.
+
 
 
 
